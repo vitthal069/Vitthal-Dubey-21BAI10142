@@ -62,13 +62,6 @@ This project is a multiplayer web-based game where two players control character
     ```
 5. Create a Pull Request.
 
-### License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions or feedback, please contact:
-- **Your Name**: [your-email@example.com](mailto:your-email@example.com)
-
 ## Acknowledgements
 - Inspiration for game mechanics and design.
 - Libraries and tools used in the project.
