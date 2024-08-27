@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #83b1b19e;
+        }
+        #game-info {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        #game-board {
+            display: grid;
+            grid-template-columns: repeat(5, 60px);
+            grid-template-rows: repeat(5, 60px);
+            gap: 2px;
+            margin-top: 10px;
+        }
+        .cell {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #050f00;
+            background-color: #01110e00; /* Default background color for cells */
+            color: rgba(239, 246, 196, 0.514); /* Text color for visibility */
+            font-size: 20px; /* Increase text size for visibility */  
+        }
+        .player1 {
+            background-color: rgba(255, 0, 225, 0.773); /* Color for Player 1's characters */
+        }
+        .player2 {
+            background-color: rgba(255, 128, 0, 0.801); /* Color for Player 2's characters */
+        }
+        .highlight {
+            background-color: rgba(67, 222, 11, 0.188); /* Highlight valid moves */
+        }
+    </style>
+</head>
+<body>
+    <div id="game-info"></div>
+    <div id="game-board"></div>
+    <script src="script.js"></script>
+</body>
+</html>
